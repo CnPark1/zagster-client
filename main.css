@@ -1,7 +1,16 @@
 body {
+    background-color:palegoldenrod;"
     font-family: "Arial"
 }
 
-h2 {
+h1 {
     font-size: 50pt
+}
+
+p {
+    font-size: 20pt
+}
+
+::backdrop {
+    c
 }
