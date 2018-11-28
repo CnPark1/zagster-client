@@ -11,8 +11,29 @@ p {
     font-size: 20pt
 }
 
-::backdrop {
-    c
+#Label {
+    line-height: 0.1em;
+    font-size: 15pt
+}
+
+h4 {
+    font-size: 20pt;
+    text-decoration-line: Underline;
+    margin-top: 10px;
+    margin-bottom: 1px
+}
+
+#Info {
+    font-size: 15pt;   
+}
+
+.About {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
 }
 
 .chartContainer {
