@@ -17,50 +17,28 @@
 <body id="home">
 
     <center><h1>Zagster Bike Share in Bend</h1>
-    <h2 id="rideCount">Number</h2>
-    <h3 id="ridesPerDay">Rides</h3>
-    <p>Number of Rentals Per Month</p></center>
+    <h2 id="rideCount">Number</h2> 
+    <h3>Rides Total</h3>
+    <p>Number of Rentals Per Month</p>
+    <p><div class="w3-padding-32">
+            <div class="w3-bar w3-border">
+              <a href="https://cnpark1.github.io/" class="w3-bar-item w3-button">Portfolio Home</a>
+            </div> </p>
+        </center>
 
-    <canvas id="myChart" width="300" height="300"></canvas>
-<script>
-var ctx = document.getElementById("myChart");
-var myChart = new Chart(ctx, { 
-    type: 'bar',
-    data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-        datasets: [{
-            label: 'Rides Per Membership',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }]
-        }
-    }
-});
-</script>
-        
+<div class="chartContainer">
+    <canvas id="Graph2016" width="400" height="400"></canvas>
+</div>
+
+<div class="chartContainer">
+    <canvas id="myChart" width="400" height="400"></canvas> 
+</div>
+
+<div class="chartContainer">
+    <canvas id="Graph2018" width="400" height="400"></canvas>
+</div>
+
 </body>
 </html>
+
+
